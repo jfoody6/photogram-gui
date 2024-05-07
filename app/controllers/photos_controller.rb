@@ -9,4 +9,11 @@ class PhotosController < ApplicationController
 
   end 
 
+
+  def show
+
+    render({ :template => "photo_templates/show" })
+
+  end 
+
 end 
